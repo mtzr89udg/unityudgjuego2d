@@ -4,7 +4,6 @@ public class JohnMovement : MonoBehaviour
 {
     public float Speed;
     public float JumpForce;
-    
     private Rigidbody2D Rigidbody2D;
     private float Horizontal;
     private bool Grounded;
