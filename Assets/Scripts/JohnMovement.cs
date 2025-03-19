@@ -21,7 +21,10 @@ public class JohnMovement : MonoBehaviour
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
         
-        Animator.SetBool("running",Horizontal != 0.0F);
+        if (Horizontal < 0) transform.localScale = new Vector3(-1.0f,1.0f,1.0f);
+        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f,1.0f,1.0f);
+        
+        Animator.SetBool("running",Horizontal != 0.0f);
         
         //Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
         Grounded = Physics2D.Raycast(transform.position,Vector2.down,0.1f);
