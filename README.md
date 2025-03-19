@@ -1,3 +1,5 @@
+# 3.6. El movimiento de una bala 
+
 # 3.5. El movimiento del jugador
 
 # 3.4. Configuración de la cámara: videojuego en 2D
