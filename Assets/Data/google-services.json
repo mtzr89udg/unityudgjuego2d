@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972048753976",
+    "project_id": "gam2dunity",
+    "storage_bucket": "gam2dunity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972048753976:android:f7ddb5c54ffc83b48d0dcd",
+        "android_client_info": {
+          "package_name": "com.google.firebase.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC2CBUou4ny2OatfzPyJI5blqX-8Crr2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
